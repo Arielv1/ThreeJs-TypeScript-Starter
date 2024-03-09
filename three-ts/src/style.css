@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+canvas {
+  z-index: 0;
+  position: absolute;
+  top: 0;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  h1 {
+    background: black;
+    color: white;
+    font-weight: bold;
+    margin: 100px auto;
+    z-index: 1;
+    position: relative;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+  }
+}
